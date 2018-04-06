@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+body {
+	margin: 0;
+	padding: 0;
+	background: url(2.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+.title {
+	text-align: center;
+	padding: 50px 0 20px;
+}
+.title h1 {
+	margin: 0;
+	padding: 0;
+	color: #262626;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+.container
+{
+	width: 50%;
+	height: 400px;
+	background: url(2.jpg);
+	background-size: cover;
+	margin: 0 auto;
+	border-radius: 5px;
+	/*border: 1px solid #fff;*/
+	box-shadow:  0 15px 40px rgba(0,0,0,.5);
+	margin-top: 0px;
+}
+.poster
+{
+	width: 50%;
+	height: 150px;
+	background: url(2.jpg);
+	margin: 0 auto;
+	/*border: 1px solid #fff;*/
+	box-shadow:  0 15px 40px rgba(0,0,0,.5);
+	overflow: hidden;
+	margin-top: 0px;
+}
+img {
+	float: left;
+	width: 50%;
+	height: 400px;
+	background-size: cover;
+	box-sizing: border-box;
+}
+.container .right {
+	float: right;
+	width: 50%;
+	height: 400px;
+	box-sizing: border-box;
+}
+h2{
+	font-size: 30px;
+	font-family: 'Fjalla One', sans-serif;
+	color: #0099FF;
+}
+.poster p {
+	font-family: 'Acme', sans-serif;
+}
+h1 {
+	font-family: 'Alfa Slab One', cursive;
+}
+button {
+	margin: 0;
+	padding: 0;
+	border-radius: 10px;
+	transition:.2s ease-in;
+}
+button:hover {
+	background: green;
+
+}
+#controls {
+  margin: 20px;
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 20;
+  color: white;
+}
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #a6a6a6;
+	box-shadow:  inset 0 0 6px rgba(0,0,0,.3);
+}
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: white;
+	box-shadow:  inset 0 0 6px rgba(0,0,0,.3); 
+}
+ul li {
+	text-decoration: none;
+}
+.footer {
+	width: 100%;
+	color: #fff;
+	text-decoration: none;
+}
+input {
+	box-shadow:  0 15px 40px rgba(0,0,0,.8);
+	border: none;
+	opacity: .7;
+}
